@@ -15,6 +15,7 @@
 		6E2F0B4B1F00EE8B008D6C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F0B491F00EE8B008D6C9F /* LaunchScreen.storyboard */; };
 		6E2F0B561F00EE8B008D6C9F /* ZPButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F0B551F00EE8B008D6C9F /* ZPButtonTests.m */; };
 		6E2F0B611F00EE8B008D6C9F /* ZPButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F0B601F00EE8B008D6C9F /* ZPButtonUITests.m */; };
+		6E2F0B701F00EEA5008D6C9F /* ZPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F0B6F1F00EEA5008D6C9F /* ZPButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6E2F0B5C1F00EE8B008D6C9F /* ZPButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2F0B601F00EE8B008D6C9F /* ZPButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPButtonUITests.m; sourceTree = "<group>"; };
 		6E2F0B621F00EE8B008D6C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2F0B6E1F00EEA5008D6C9F /* ZPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPButton.h; sourceTree = "<group>"; };
+		6E2F0B6F1F00EEA5008D6C9F /* ZPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6E2F0B3F1F00EE8B008D6C9F /* AppDelegate.m */,
 				6E2F0B411F00EE8B008D6C9F /* ViewController.h */,
 				6E2F0B421F00EE8B008D6C9F /* ViewController.m */,
+				6E2F0B6E1F00EEA5008D6C9F /* ZPButton.h */,
+				6E2F0B6F1F00EEA5008D6C9F /* ZPButton.m */,
 				6E2F0B441F00EE8B008D6C9F /* Main.storyboard */,
 				6E2F0B471F00EE8B008D6C9F /* Assets.xcassets */,
 				6E2F0B491F00EE8B008D6C9F /* LaunchScreen.storyboard */,
@@ -207,7 +212,7 @@
 				TargetAttributes = {
 					6E2F0B371F00EE8B008D6C9F = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K2WT69M66J;
+						DevelopmentTeam = 3Q344U5G74;
 						ProvisioningStyle = Automatic;
 					};
 					6E2F0B501F00EE8B008D6C9F = {
@@ -279,6 +284,7 @@
 				6E2F0B431F00EE8B008D6C9F /* ViewController.m in Sources */,
 				6E2F0B401F00EE8B008D6C9F /* AppDelegate.m in Sources */,
 				6E2F0B3D1F00EE8B008D6C9F /* main.m in Sources */,
+				6E2F0B701F00EEA5008D6C9F /* ZPButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = ZPButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.ZPButton;
@@ -441,7 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = ZPButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.ZPButton;

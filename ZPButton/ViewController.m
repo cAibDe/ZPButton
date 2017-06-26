@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZPButton.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    ZPButton *button = [[ZPButton alloc]initWithFrame:CGRectMake(100, 100, 180, 80)];
+    button.orientation = ZPButtonTextOrientationTop;
+    [button setTitle:@"123" forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"dog"] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
+    [button setTitleColor:[UIColor yellowColor] forState:UIControlStateHighlighted];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
 }
-
+- (void)buttonAction:(UIButton *)button{
+    button.selected = !button.selected;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
